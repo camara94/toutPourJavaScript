@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8" />
+		<title>Les condition en JavaScript</title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			var result1 = 5, result2 = '5', result3 = 6, comparer;
+
+			comparer = result1 == result2 // true;
+			console.log(comparer);
+			comparer = result1 === result2 // false;
+			console.log(comparer);
+			comparer = result1 >= result2 // true;
+			console.log(comparer);
+			comparer = result1 != result3 // true;
+			console.log(comparer);
+			
+			var test;
+			test = true && true; //true;
+			console.log(test);
+			test = true && false; // false
+			console.log(test);
+			test = true || true; // true;
+			console.log(test);
+			test = false || true; // true
+			console.log(test);
+
+			if (true) {
+			    //alert("Ce message s'est bien affiché.");
+			}
+
+			if (false) {
+			    alert("Pas la peine d'insister, ce message ne s'affichera pas.");
+			}
+
+			//if (confirm('Voulez-vous exécuter le code JavaScript de cette page ?')) {
+			   // alert('Le code a bien été exécuté !');
+			//}
+			/*if (confirm('Pour accéder à ce site vous devez avoir 18 ans ou plus, cliquez sur "OK" si c\'est le cas.')) {
+			    alert('Vous allez être redirigé vers le site.');
+			}
+
+			else {
+			    alert("Désolé, vous n'avez pas accès à ce site.");
+			}*/
+
+			/*var startMessage = 'Votre catégorie : ',
+			    endMessage,
+			    adult = confirm('Êtes-vous majeur ?');
+
+			if (adult) { // La variable « adult » contient un booléen, on peut donc directement la soumettre à la structure if sans opérateur conditionnel
+			    endMessage = '18+';
+			} else {
+			    endMessage = '-18';
+			}
+
+			alert(startMessage + endMessage);*/
+
+			var conditionTest = 'Fonctionnera ? Fonctionnera pas ?';
+
+			if (conditionTest) {
+			    alert('Fonctionne !');
+			} else {
+			    alert('Ne fonctionne pas !');
+			}
+		</script>
+	</body>
+</html>

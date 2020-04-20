@@ -23,7 +23,6 @@
 *   Les codes JavaScript se placent dans une balise **&lt;script&gt;**.
 *   Il est possible d'inclure un fichier JavaScript grâce à l'attributsrcde la balise **&lt;script&gt;**.
 
-
 ## Chapitre III: Les variables
 *   Une variable est un moyen pour stocker une valeur.
 *   On utilise le mot clévarpour déclarer une variable, et on utilise=pour affecter une valeur à la variable.
@@ -31,3 +30,10 @@
 *   Grâce à différents opérateurs, on peut faire des opérations entre les variables.
 *   L'opérateur + permet de concaténer des chaînes de caractères, c'est-à-dire de les mettre bout à bout.
 *   La fonctionprompt()permet d'interagir avec l'utilisateur.
+
+## Chapitre IV: Les conditions
+*   Une condition retourne une valeur booléenne :trueoufalse.
+*   De nombreux opérateurs existent afin de tester des conditions et ils peuvent être combinés entre eux.
+*   La conditionif elseest la plus utilisée et permet de combiner les conditions.
+*   Quand il s'agit de tester une égalité entre une multitude de valeurs, la conditionswitchest préférable.
+*   Les ternaires sont un moyen concis d'écrire des conditionsif elseet ont l'avantage de retourner une valeur.
