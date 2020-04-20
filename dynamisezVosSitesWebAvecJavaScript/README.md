@@ -20,5 +20,14 @@
 *   Les instructions doivent êtres séparées par un **point-virgule**.
 *   Un code JavaScript bien présenté est plus lisible et plus facilement modifiable.
 *   Il est possible d'inclure des commentaires au moyen des caractères <code>//, /* et */</code>.
-*   Les codes JavaScript se placent dans une balise **&lt;script&gt;.
+*   Les codes JavaScript se placent dans une balise **&lt;script&gt;**.
 *   Il est possible d'inclure un fichier JavaScript grâce à l'attributsrcde la balise **&lt;script&gt;**.
+
+
+## Chapitre III: Les variables
+*   Une variable est un moyen pour stocker une valeur.
+*   On utilise le mot clévarpour déclarer une variable, et on utilise=pour affecter une valeur à la variable.
+*   Les variables sont typées dynamiquement, ce qui veut dire que l'on n'a pas besoin de spécifier le type de contenu que la variable va contenir.
+*   Grâce à différents opérateurs, on peut faire des opérations entre les variables.
+*   L'opérateur + permet de concaténer des chaînes de caractères, c'est-à-dire de les mettre bout à bout.
+*   La fonctionprompt()permet d'interagir avec l'utilisateur.
