@@ -15,3 +15,10 @@
 *  Tout comme le HTML, le JavaScript est généralement exécuté par le navigateur de l'internaute : on parle d'un comportement client-side, par opposition au server-side lorsque le code est exécuté par le serveur.
 *  Le JavaScript est standardisé par l'ECMA International sous le nom d'ECMAScript qui constitue la référence du langage.
 *  La dernière version standardisée du JavaScript est basée sur l'ECMAScript 5, sorti en 2009. Mais sa nouvelle version, ECMAScript 6, prend du terrain.
+
+## Chapitre II: Premiers pas en JavaScript
+*   Les instructions doivent êtres séparées par un **point-virgule**.
+*   Un code JavaScript bien présenté est plus lisible et plus facilement modifiable.
+*   Il est possible d'inclure des commentaires au moyen des caractères <code>//, /* et */</code>.
+*   Les codes JavaScript se placent dans une balise **&lt;script&gt;.
+*   Il est possible d'inclure un fichier JavaScript grâce à l'attributsrcde la balise **&lt;script&gt;**.
