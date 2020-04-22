@@ -37,3 +37,10 @@
 *   La conditionif elseest la plus utilisée et permet de combiner les conditions.
 *   Quand il s'agit de tester une égalité entre une multitude de valeurs, la conditionswitchest préférable.
 *   Les ternaires sont un moyen concis d'écrire des conditionsif elseet ont l'avantage de retourner une valeur.
+
+## Chapitre V: Les boucles en JavaScript
+*  L'incrémentation est importante au sein des boucles. Incrémenter ou décrémenter signifie ajouter ou soustraire une unité à une variable. Le comportement d'un opérateur d'incrémentation est différent s'il se place avant ou après la variable.
+*  La bouclewhilepermet de répéter une liste d'instructions tant que la condition est vérifiée.
+* La boucledo whileest une variante dewhilequi sera exécutée au moins une fois, peu importe la condition.
+
+*  La boucleforest une boucle utilisée pour répéter une liste d'instructions un certain nombre de fois. C'est donc une variante très ciblée de la bouclewhile.

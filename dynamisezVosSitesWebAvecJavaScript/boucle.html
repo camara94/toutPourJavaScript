@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8" />
+		<title>Les boucles en JavaScript</title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			var number_1 = 0;
+			var number_2 = 0;
+
+			number_1++;
+			++number_2;
+
+			/*console.log(number_1);
+			console.log(number_2);*/
+
+			/*var number = 0;
+			var output = ++number;
+
+			console.log(number); //1
+			console.log(output); //1*/
+			var number = 0;
+			var output = number++;
+
+			/*console.log(number); //1
+			console.log(output); //0*/
+
+			// La boucle <while> ou répéter tant que
+			/*while(number < 10) {
+				number++;
+			} ou bien*/
+			while(++number < 10);
+			console.log(number);
+			/*
+
+			Nous allons utiliser une bouclewhile, qui va demander, à chaque passage dans la boucle, un prénom supplémentaire. La boucle ne s'arrêtera que lorsque l'utilisateur choisira de ne plus entrer de prénom.
+			*/
+
+			var nicks = '',
+				nick = '',
+				proceed = true;
+
+			/*while(proceed) {
+				nick = prompt('Entrez un prénom: ');
+				if(nick) 
+					nicks += nick + ' ';
+				else
+					proceed = false;
+			}
+
+			while(true){
+				nick = prompt('Entrez un prénom: ');
+
+				if(nick)
+					nicks +=  nick + ' ';
+				else
+					break;
+			}
+
+			do {
+				nick = prompt('Entrez un prénom: ');
+				if (nick) {
+					nicks += nick + ' ';
+				} else {
+					proceed = false;
+				}
+			} while(proceed);
+
+			console.log(nicks);*/
+
+			for (let iter = 0; iter < 5; iter++){
+				console.log('Iteration n°' + iter);
+			}
+			//let noms, nom;
+			/*for (var noms = '', nom; true;){
+				nom = prompt('Entrez un prénom: ');
+
+				if (nom) {
+					noms += nom + ' ';
+				} else {
+					break;
+				}
+			}
+
+			console.log(noms);*/
+
+			/*for (var i = 0, nicks = '', nick; true; i++) {
+			    nick = prompt('Entrez un prénom :');
+			  
+			    if (nick) {
+			        nicks += nick + ' ';  
+			    } else {
+			        break;  
+			    }	
+			}
+
+			alert('Il y a ' + i + ' prénoms :\n\n' + nicks);*/
+
+			let parents = ['Mawatta Camara', 'Mariame Camara', 'Kalil Camara'];
+
+			for (let i in parents)
+				console.log(parents[i]);
+
+		</script>
+	</body>
+</html>
