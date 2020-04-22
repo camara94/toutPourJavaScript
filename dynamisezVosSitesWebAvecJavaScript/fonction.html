@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8" />
+		<title>Les fonction en JavaScript</title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			//Comment créer une fonction en JavaScript
+			/*function showMsg() {
+				alert('Et une première fonction, une !');
+			} ou/*/
+
+			showMsg = () => alert('Et une première fonction, une !');
+
+			//showMsg();
+			let byTwo = () => {
+				let result = parseInt(prompt('Donnez le nombre à multiplier par 2:'));
+				alert(result * 2);
+			}
+
+			var message = 'Ici la variable globale !';
+			let sayHello = () => {
+				var message = 'Ici la variable locale !';
+				var ohai = 'Hello world';
+				alert(message);
+			}
+			//sayHello();
+			//alert(message);
+
+			function myFunction(arg) {
+			    alert('Votre argument : ' + arg);
+			}
+
+			myFunction(prompt('Que souhaitez-vous passer en argument à la fonction ?'));
+ 		</script>
+	</body>
+</html>

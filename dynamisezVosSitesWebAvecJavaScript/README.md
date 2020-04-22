@@ -44,3 +44,10 @@
 * La boucledo whileest une variante dewhilequi sera exécutée au moins une fois, peu importe la condition.
 
 *  La boucleforest une boucle utilisée pour répéter une liste d'instructions un certain nombre de fois. C'est donc une variante très ciblée de la bouclewhile.
+
+## Chapitre VI: Les fonctions en JavaScript
+*  Il existe des fonctions natives, mais il est aussi possible d'en créer, avec le mot-cléfunction.
+*  Les variables déclarées avecvarau sein d'une fonction ne sont accessibles que dans cette fonction.
+*  Il faut éviter le plus possible d'avoir recours aux variables globales.
+*  Une fonction peut recevoir un nombre défini ou indéfini de paramètres. Elle peut aussi retourner une valeur ou ne rien retourner du tout.
+*  Des fonctions qui ne portent pas de nom sont des fonctions anonymes et servent à isoler une partie du code.
