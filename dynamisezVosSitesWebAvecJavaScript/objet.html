@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8" />
+		<title>Les objets en JavaScript</title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			let myString = 'Ceci est une chaine de caractère !';
+			console.log('Cette chaine contient: ' + myString.length + ' caractères');
+			console.log(myString.toUpperCase());
+			//les objets array
+			let prenoms = new Array('Laby Damaro','Karamo', 'Aly Badara', 'Lancine', 'Abdoulaye');
+
+			/*for ( let i in prenoms)
+				console.log(prenoms[i]);*/
+
+			/*prenoms.forEach( (prenom, index) => {
+				console.log('prénon n° ' + (index + 1) + ' est: ' + prenom);
+			})*/
+
+			/*for(let i = 0; i < prenoms.length; i++)
+				console.log('Prénom n°' + (i+1) + ' est: ' + prenoms[i]);*/
+			/*let i = -1;
+			while(++i<prenoms.length)
+				console.log('Prénom n°' + (i+1) + ' est: ' + prenoms[i]);*/
+
+			//Ajout d'élément à la fin d'un tableau
+
+			prenoms[prenoms.length] = 'Mohamed Kairaba';
+			prenoms.push('Mami');
+			prenoms.unshift('Mory','Fatime');
+
+			// Suppression d'élément dans un tableau
+			prenoms.shift();
+			prenoms.pop();
+
+			let i = 0;
+			do
+				console.log('Prénom n°' + (i+1) + ' est: ' + prenoms[i]);
+			while(++i<prenoms.length);
+
+			//Transformer un tableau en chaine de caractère
+			let chaine = prenoms.join(';');
+			console.log(chaine);
+			let sousTableau = prenoms.slice(1, 4);
+			console.log(sousTableau);
+
+			//Les objets literaux en JavaScript
+			let person = {
+				nom: 'Camara',
+				prenom: 'Laby Damaro',
+				age: 25,
+				telephone: '+216 56 352 275'
+			}
+
+			for (key in person)
+				console.log(key + ' de la personne est: ' + person[key]);
+
+			var nicks = [],
+			    nick;
+
+			while (true) {
+			    nick = prompt('Entrez un prénom :');
+
+			    if (nick) 
+			        nicks.push(nick); // Ajoute le nouveau prénom à la fin du tableau
+			    else
+			    	break;
+			}
+
+			nicks.forEach(nom => alert(nom));
+		</script>
+	</body>
+</html>

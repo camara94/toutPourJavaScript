@@ -51,3 +51,12 @@
 *  Il faut éviter le plus possible d'avoir recours aux variables globales.
 *  Une fonction peut recevoir un nombre défini ou indéfini de paramètres. Elle peut aussi retourner une valeur ou ne rien retourner du tout.
 *  Des fonctions qui ne portent pas de nom sont des fonctions anonymes et servent à isoler une partie du code.
+
+## Chapitre VII: Les fonctions en JavaScript
+*  Un objet contient un constructeur, des propriétés et des méthodes.
+*  Les tableaux sont des variables qui contiennent plusieurs valeurs, chacune étant accessible au moyen d'un indice.
+*  Les indices d'un tableau sont toujours numérotés à partir de 0. Ainsi, la première valeur porte l'indice 0.
+*  Des opérations peuvent être réalisées sur les tableaux, comme ajouter des items ou en supprimer.
+*  Pour parcourir un tableau, on utilise généralement une bouclefor, puisqu'on connaît, grâce à la propriétélength, le nombre d'items du tableau.
+*  Les objets littéraux sont une variante des tableaux où chaque item est accessible via un identifiant et non un indice.
+
